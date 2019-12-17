@@ -10,7 +10,7 @@
     end
     puts current_line
   end
-end
+
 
 def take_a_number(deli, name)
   deli << name
@@ -24,3 +24,4 @@ def now_serving(deli)
     puts "Currently serving #{deli.first}."
     deli.shift
   end
+end
